@@ -1,0 +1,62 @@
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  top: 0;
+  margin-bottom: 10px;
+  color: black;
+  transition: color 0.2s;
+  height: 60px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+}
+
+.bm-item:hover {
+  color: #7a3cd8;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 30px;
+  top: 30px;
+}
+
+.bm-burger-bars {
+  background: #420b92;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: rgb(255, 255, 255);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.25em;
+}
+
+/* .bm-menu-wrap {
+  height: 50%;
+} */
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}

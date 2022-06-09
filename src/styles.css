@@ -1,0 +1,21 @@
+* {
+  /* font-family: "Libre Franklin", sans-serif; */
+  /* font-family: "Chivo", sans-serif; */
+  /* font-family: "Work Sans", sans-serif; */
+}
+
+.content-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 0px 0px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.cards-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 0px 0px;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+}
